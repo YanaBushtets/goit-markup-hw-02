@@ -1,0 +1,107 @@
+:root {
+  --text-primary: #212121;
+  --text-nav: #2196f3;
+  --contact-link: #757575;
+  --primary-font: "Roboto";
+  --secondary-font: "Raleway";
+}
+body {
+  font-family: Roboto, Raleway;
+  color: #e5e5e5;
+}
+.web-header {
+  font-family: var(--secondary-font);
+  color: #000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.web-color {
+  font-family: var(--secondary-font);
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.nav-link {
+  font-family: var(--primary-font);
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.contact-link {
+  font-family: var(--primary-font);
+  color: var(--contact-link);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.contact-link:hover,
+.nav-link:focus,
+.contact-link:focus {
+  color: var(--text-nav);
+}
+.type-link {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.type-link:hover,
+.type-link:focus {
+  color: #fff;
+}
+.section {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section-p {
+  font-family: var(--primary-font);
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+.address {
+  font-family: var(--primary-font);
+  font-style: normal;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.address:hover,
+.address:focus {
+  color: #757575;
+}
+.contact-link-footer {
+  font-family: var(--primary-font);
+  color: var(--contact-link);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.web-footer {
+  font-family: var(--secondary-font);
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
