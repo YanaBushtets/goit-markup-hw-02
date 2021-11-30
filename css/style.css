@@ -7,7 +7,6 @@
 }
 body {
   font-family: Roboto, Raleway;
-  color: #e5e5e5;
 }
 .web-header {
   font-family: var(--secondary-font);
@@ -60,14 +59,14 @@ body {
 .type-link:focus {
   color: #fff;
 }
-.section {
+.title {
   font-family: var(--primary-font);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.section-p {
+.subtitle {
   font-family: var(--primary-font);
   color: #757575;
   font-weight: 400;
