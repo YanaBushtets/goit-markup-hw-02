@@ -1,28 +1,50 @@
 :root {
   --text-primary: #212121;
   --text-nav: #2196f3;
+  --text-web-header: #000;
+  --text-web-color: #2196f3;
   --contact-link: #757575;
-  --primary-font: "Roboto";
-  --secondary-font: "Raleway";
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 }
 body {
-  font-family: Roboto, Raleway;
+  font-family: var(--primary-font);
 }
 .web-header {
   font-family: var(--secondary-font);
-  color: #000;
+  color: var(--text-web-header);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.web-color {
+  font-family: var(--secondary-font);
+  color: var(--text-web-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.web-color {
-  font-family: var(--secondary-font);
-  color: #2196f3;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+.solution {
+  background-color: #2f303a;
+}
+.main-title {
+  color: #fff;
+}
+.button {
+  background-color: #2196f3;
+  color: #fff;
+}
+.list-title {
+  color: var(--text-primary);
+}
+.list-title-text {
+  color: var(--contact-link);
+}
+.list {
+  list-style-type: none;
 }
 .nav-link {
   font-family: var(--primary-font);
@@ -31,6 +53,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contact-link {
   font-family: var(--primary-font);
@@ -39,6 +62,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -57,6 +81,7 @@ body {
 }
 .type-link:hover,
 .type-link:focus {
+  background-color: #2196f3;
   color: #fff;
 }
 .title {
@@ -68,33 +93,33 @@ body {
 }
 .subtitle {
   font-family: var(--primary-font);
-  color: #757575;
+  color: var(--contact-link);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+.footer {
+  background-color: #2f303a;
+}
 .address {
   font-family: var(--primary-font);
   font-style: normal;
   color: #fff;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
-.address:hover,
-.address:focus {
-  color: #757575;
-}
+
 .contact-link-footer {
   font-family: var(--primary-font);
   color: var(--contact-link);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .web-footer {
   font-family: var(--secondary-font);
@@ -103,4 +128,5 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
